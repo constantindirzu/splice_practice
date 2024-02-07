@@ -1,0 +1,188 @@
+header {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  background: url("../img/bg_image.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 100px 100px 250px #181818, inset -100px -100px 250px black;
+}
+
+.btn-login {
+  color: #A6A8AD;
+  margin-right: 16px;
+}
+.btn-login:hover {
+  color: #fff;
+}
+
+.btn-signUp {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0 20px;
+  color: #121214;
+}
+.btn-signUp:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.header--advertisement {
+  background-color: #0033FF;
+  position: relative;
+  z-index: 1;
+}
+.header--advertisement-content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.header--advertisement-content .a-click-advertisement {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 12px;
+}
+.header--advertisement-content .a-click-advertisement:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header--content {
+  position: absolute;
+  z-index: 1;
+  margin: auto 0;
+  left: 0;
+  right: 0;
+  top: 20%;
+}
+.header--content-title {
+  color: #fff;
+  font-size: 72px;
+  letter-spacing: 1.08px;
+}
+.header--content-text {
+  color: #fff;
+  margin: 32px 0;
+  font-size: 20px;
+  max-width: 35%;
+}
+.header--content-btn {
+  margin: 32px 0;
+  padding: 12px 32px;
+  font-size: 16px;
+}
+
+.headerFooter--content {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerFooter--content .btn-learMore {
+  color: #fff;
+}
+.headerFooter--content .btn-learMore:hover {
+  border: 1px solid #0033FF;
+}
+
+.main--explorer {
+  background-color: #121214;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.main--explorer .card-subtitle {
+  color: #A6A8AD;
+  font-size: 12px;
+  padding: 8px 0;
+}
+.main--explorer .card-title {
+  color: #fff;
+  font-size: 28px;
+  padding: 8px 0;
+}
+.main--explorer .card-text {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 0;
+}
+.main--explorer .btn-explorer {
+  max-width: 45%;
+  margin-top: 8px;
+}
+.main--explorer .card-explorer {
+  height: 100%;
+  display: inline-block;
+}
+.main--explorer .card-group .card {
+  border-radius: 8px;
+}
+.main--explorer .card-group .card-img {
+  padding: 32px 64px;
+}
+.main--explorer .card-group .card-title {
+  font-size: 20px;
+  margin: auto 16px;
+}
+.main--explorer .card-group .card-text {
+  font-size: 14px;
+  margin: auto 16px;
+}
+.main--explorer .title-text {
+  font-size: 28px;
+}
+
+.main--starNow {
+  background: url("../img/bg_tryNow.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main--starNow .titleTryNow {
+  font-size: 54px;
+}
+.main--starNow .btn-startNow {
+  max-width: 150px;
+  margin: 16px auto;
+}
+
+.main--footer {
+  background-color: #121214;
+}
+.main--footer h5 {
+  color: #fff;
+}
+.main--footer .nav-link {
+  color: #A6A8AD;
+}
+.main--footer p {
+  color: #A6A8AD;
+}
+
+/*# sourceMappingURL=styles.css.map */
